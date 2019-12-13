@@ -1,0 +1,4 @@
+./bin/magento setup:install --base-url="http://localhost/" --db-host="127.0.0.1" --db-name="magento2" --db-user="root" --db-password=""
+--admin-firstname="admin_first" --admin-lastname="admin_last" --admin-email="admin@example.com" --admin-user="su" 
+--admin-password="magento2" --language="en_US" --currency="USD" --timezone="America/Chicago" --use-rewrites="1" 
+--backend-frontname="admin"
