@@ -2,3 +2,9 @@ sudo php ./bin/magento setup:install --base-url="http://localhost/" --db-host="1
 --admin-firstname="admin_first" --admin-lastname="admin_last" --admin-email="admin@example.com" --admin-user="su" 
 --admin-password="magento2" --language="en_US" --currency="USD" --timezone="America/Chicago" --use-rewrites="1" 
 --backend-frontname="admin"
+
+# we must change MAGE_MODE (app/etc/env.php) on developer mode
+# type command in terminal:
+./bin/magento deploy:mode:set developer
+# if we need to show mode
+./bin/magento deploy:mode:show
